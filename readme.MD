@@ -151,7 +151,7 @@ console.log("process.env.NODE_ENV 的值是(webpack.config.prod.js)："+ process
 然后执行：npm run build-prod
 命令行里有如下输出：
 >process.env.NODE_ENV 的值是(webpack.config.js)：undefined
-process.env.NODE_ENV 的值是(webpack.config.prod.js)：undefined
+>process.env.NODE_ENV 的值是(webpack.config.prod.js)：undefined
 
 通过浏览器访问/dist/index.html，控制台有如下信息输出：
 >app test
@@ -193,10 +193,10 @@ process.env.NODE_ENV 的值是(webpack.config.prod.js)：undefined
 ```
 运行： npm run build-cross-env-with-prod，命令行中有显示：
 >process.env.NODE_ENV 的值是(webpack.config.js)：production
-process.env.NODE_ENV 的值是(webpack.config.prod.js)：production
+>process.env.NODE_ENV 的值是(webpack.config.prod.js)：production
 
 通过浏览器访问/dist/index.html，控制台有如下信息输出：
 >app test
-process.env.NODE_ENV 的值是(app.js)：production
+>process.env.NODE_ENV 的值是(app.js)：production
 
 可以在github上看完整代码，希望能对你有一点点的帮助~
