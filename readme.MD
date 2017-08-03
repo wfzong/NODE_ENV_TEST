@@ -1,3 +1,4 @@
+# Node 环境变量 process.env.NODE_ENV 之webpack应用
 对于process.env.NODE_ENV困惑起因为在配置webpack时，明明配置了：process.env.NODE_ENV为production，如下：
 
 ``` javascript
